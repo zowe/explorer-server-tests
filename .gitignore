@@ -1,0 +1,7 @@
+/target/**
+.factorypath
+.jazzignore
+build.xml
+.history
+/bin/**
+.DS_Store
