@@ -24,7 +24,7 @@ public class ZosTest extends AbstractHTTPComparisonTest {
 	@Test
 	public void testGetUsername() {
 		System.out.println("> testGetUsername()");
-		String relativeURI				= "api/zos/username";
+		String relativeURI				= "zos/username";
 		String httpMethodType			= HttpGet.METHOD_NAME;
 		String expectedResultFilePath	= "expectedResults/Zos/username.json";
 		int expectedReturnCode			= HttpStatus.SC_OK;
@@ -39,7 +39,7 @@ public class ZosTest extends AbstractHTTPComparisonTest {
 	public void testGetParmlibInfo() {
 		System.out.println("> testGetParmlibInfo()");
 
-		String relativeURI				= "api/zos/parmlib";
+		String relativeURI				= "zos/parmlib";
 		String httpMethodType			= HttpGet.METHOD_NAME;
 		String expectedResultFilePath 	= "expectedResults/Zos/parmlib_info_regex.txt";
 		int expectedReturnCode			= HttpStatus.SC_OK;
@@ -50,7 +50,7 @@ public class ZosTest extends AbstractHTTPComparisonTest {
 	@Test
 	public void testGetSysplexInfo() {
 		System.out.println("> testGetSysplexInfo()");
-		String relativeURI				= "api/zos/sysplex";
+		String relativeURI				= "zos/sysplex";
 		String httpMethodType			= HttpGet.METHOD_NAME;
 		String expectedResultFilePath 	= "expectedResults/Zos/sysplex_info_regex.txt";
 		int expectedReturnCode			= HttpStatus.SC_OK;

@@ -20,7 +20,7 @@ import com.ibm.atlas.utilities.Utils;
 public class UssDeleteFilesTest extends AbstractUssFilesIntegrationTest {
 
 	/**
-	 * DELETE /Atlas/api/uss/files/
+	 * DELETE /api/v1/uss/files/
 	 */
 	
 	@Test

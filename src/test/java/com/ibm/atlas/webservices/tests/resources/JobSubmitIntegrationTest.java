@@ -27,7 +27,7 @@ import com.ibm.atlas.model.jobs.Job;
 public class JobSubmitIntegrationTest extends AbstractJobsIntegrationTest {
 
 	/**
-	 * POST /Atlas/api/jobs
+	 * POST /api/v1/jobs
 	 */
 	@Test
 	public void testSubmitJob() throws Exception {

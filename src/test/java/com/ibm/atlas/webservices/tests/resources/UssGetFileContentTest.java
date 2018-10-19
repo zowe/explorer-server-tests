@@ -29,7 +29,7 @@ import com.ibm.atlas.utilities.Utils;
 public class UssGetFileContentTest extends AbstractUssFilesIntegrationTest {
 
 	/**
-	 * GET /Atlas/api/uss/files/{path}/content
+	 * GET /api/v1/uss/files/{path}/content
 	 */
 
 	private static String tempPath;

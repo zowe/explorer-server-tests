@@ -40,7 +40,7 @@ public class UssUpdateFileContentTest extends AbstractUssFilesIntegrationTest {
 	}
 
 	/**
-	 * PUT /Atlas/api/uss/files/{path}/content
+	 * PUT /api/v1/uss/files/{path}/content
 	 */
 
 	@Test

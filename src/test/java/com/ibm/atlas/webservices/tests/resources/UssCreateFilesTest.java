@@ -21,7 +21,7 @@ public class UssCreateFilesTest extends AbstractUssFilesIntegrationTest {
 	private final String ATLAS_TEST_FILE = USER_DIRECTORY + "ATLAS_TEST.txt";
 
 	/**
-	 * POST /Atlas/api/uss/files/
+	 * POST /api/v1/uss/files/
 	 */
 
 	@Test

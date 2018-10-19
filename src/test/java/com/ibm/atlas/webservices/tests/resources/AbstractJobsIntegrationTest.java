@@ -30,7 +30,7 @@ import com.ibm.json.java.JSONObject;
 
 public class AbstractJobsIntegrationTest extends AbstractHTTPComparisonTest {
 
-	static final String JOBS_ROOT_ENDPOINT = "api/jobs";
+	static final String JOBS_ROOT_ENDPOINT = "jobs";
 	
 	static final String JOB_IEFBR14 = "IEFBR14";
 	static final String JOB_WITH_STEPS = "JOB1DD";

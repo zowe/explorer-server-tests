@@ -26,7 +26,7 @@ public class SystemAPITest extends AbstractHTTPComparisonTest {
 		String version = System.getProperty("atlas.pom");
 		System.out.println("version "+version);
 		String formatted = version!=null ? reformat(version) : "V1.0.0.0";
-		String relativeURI				= "api/system/version";
+		String relativeURI				= "system/version";
 		String httpMethodType			= HttpGet.METHOD_NAME;
 		String expectedResultFilePath 	= "expectedResults/System/version.txt";
 		int expectedReturnCode			= HttpStatus.SC_OK;
