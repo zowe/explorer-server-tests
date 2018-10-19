@@ -20,7 +20,7 @@ public class JobDeleteIntegrationTest extends AbstractJobsIntegrationTest {
 
 
 	/**
-	 * DELETE /atlas/api/jobs
+	 * DELETE /api/v1/jobs
 	 */
 	@Test
 	public void testDeleteJob() throws Exception {

@@ -32,7 +32,7 @@ public class JobGetByIdTest extends AbstractJobsIntegrationTest {
 	}
 
 	/**
-	 * GET /Atlas/api/jobs/<jobname>/<jobid>
+	 * GET /api/v1/jobs/<jobname>/<jobid>
 	 */
 
 	@Test

@@ -33,7 +33,7 @@ import com.ibm.atlas.utilities.Utils;
 public class UssGetFileAttributesTest extends AbstractUssFilesIntegrationTest {
 
 	/**
-	 * GET /Atlas/api/uss/files/{path}
+	 * GET /api/v1/uss/files/{path}
 	 */
 
 	private static String tempPath;

@@ -73,7 +73,7 @@ public abstract class AbstractHTTPComparisonTest extends AtlasIntegrationTest {
 	
 	//obtain the remote URL and credentials to test against from the system properties
 	// these are set by -D defines from the Jenkins job or on the VM Arguments of the Eclipse launch configuration 
-	protected static String baseAtlasURI	= System.getProperty("atlas.baseURI", 		"https://localhost:9443/Atlas/");
+	protected static String baseAtlasURI	= System.getProperty("atlas.baseURI", 		"https://localhost:9443/api/v1/");
 	protected static String userName		= System.getProperty("atlas.username",		"defaultUser");
 	protected static String userPassword	= System.getProperty("atlas.userpassword",	"defaultPassword");
 
@@ -82,7 +82,7 @@ public abstract class AbstractHTTPComparisonTest extends AtlasIntegrationTest {
 	@BeforeClass
 	public static void setupClass() throws Exception {
 		FirewallAuthentication.authenticate();
-		assertEquals("We are able to login in authenticated (if not check your password, so stop it getting revoked)", HttpStatus.SC_OK, sendGetRequest("api/zos/username").getStatusLine().getStatusCode());
+		assertEquals("We are able to login in authenticated (if not check your password, so stop it getting revoked)", HttpStatus.SC_OK, sendGetRequest("zos/username").getStatusLine().getStatusCode());
 	}
 	
 	/**

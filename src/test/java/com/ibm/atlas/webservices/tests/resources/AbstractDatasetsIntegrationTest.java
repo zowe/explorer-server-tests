@@ -30,7 +30,7 @@ import com.ibm.json.java.JSONObject;
 
 public class AbstractDatasetsIntegrationTest extends AbstractHTTPComparisonTest {
 
-	static final String DATASETS_ROOT_ENDPOINT = "api/datasets";
+	static final String DATASETS_ROOT_ENDPOINT = "datasets";
 	static final String HLQ = System.getProperty("atlas.username").toUpperCase();
 	static final String TEST_JCL_PDS = HLQ + ".TEST.JCL";
 	static final String INVALID_DATASET_NAME = HLQ + ".TEST.INVALID";

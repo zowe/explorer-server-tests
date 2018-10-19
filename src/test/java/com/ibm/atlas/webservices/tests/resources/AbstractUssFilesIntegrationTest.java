@@ -27,7 +27,7 @@ public class AbstractUssFilesIntegrationTest extends AbstractHTTPComparisonTest 
 
 	
 
-	static final String USS_ROOT_ENDPOINT = "api/uss/files";
+	static final String USS_ROOT_ENDPOINT = "uss/files";
 	
 	final static String U_DIRECTORY = System.getProperty("baseDirectory") == null ? "/u/" : System.getProperty("baseDirectory");
 	final static String USER_DIRECTORY = U_DIRECTORY + System.getProperty("atlas.username").toLowerCase() + "/";
